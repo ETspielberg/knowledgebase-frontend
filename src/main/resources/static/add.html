@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+<meta name="description" content="">
+<meta name="author" content="Eike Spielberg">
+<link rel="icon" href="img/favicon.ico">
+
+<title>Knowledgebase :: Autor hinzufügen</title>
+<link href="/webjars/bootstrap/css/bootstrap.css" rel="stylesheet">
+<script src="/webjars/jquery/jquery.min.js"></script>
+<script src="/webjars/bootstrap/js/bootstrap.min.js"></script>
+<script src="js/add.js"></script>
+</head>
+
+<body>
+	<div class="jumbotron">
+		<div class="container">
+			<h1>Autor hinzufügen</h1>
+		</div>
+	</div>
+	
+	<div class="container successarea">
+		<div class="row">
+		<div class="col-md-12">
+			<h2> Eintrag gespeichert</h2>
+			<div>
+			<a href="index.html" class="btn btn-success">Zurück zur Startseite</a>
+			</div>
+			</div>
+		</div>
+	</div>
+	<form>
+	<div class="container mainbox">
+	<div class="form-group">
+		<label class="col-md-2 control-label" for="firstname">Name</label>
+		<div class="col-md-3">
+			<input id="firstname" name="firstname" placeholder="Max"
+				class="form-control input-md" type="text">
+		</div>
+		<div class="col-md-2">
+			<input id="middlename" name="middlename" placeholder="M."
+				class="form-control input-md" type="text">
+		</div>
+		<div class="col-md-5">
+			<input id="surname" name="surname" placeholder="Mustermann"
+				class="form-control input-md" type="text">
+		</div>
+	</div>
+	</div>
+	<hr />
+	<div class="container">
+	<h2>Zugehörigkeit und Adresse</h2>
+	<div class="form-group">
+		<label class="col-md-2 control-label" for="insitution">Institution</label>
+		<div class="col-md-10">
+			<input id="institution" name="institution"
+				placeholder="Max-und-Moritz-Universität"
+				class="form-control input-md" type="text">
+		</div>
+	</div>
+	<div class="form-group">
+		<label class="col-md-2 control-label" for="department">Abteilung</label>
+		<div class="col-md-10">
+			<input id="department" name="department"
+				placeholder="Abteilung für böse Streiche"
+				class="form-control input-md" type="text">
+		</div>
+	</div>
+	<div class="form-group">
+		<label class="col-md-2 control-label" for="department">Adresse</label>
+		<div class="col-md-10">
+			<input id="address" name="address" placeholder="Mühle"
+				class="form-control input-md" type="text">
+		</div>
+	</div>
+	<div class="form-group">
+		<label class="col-md-2 control-label" for="linkHomepage">Homepage</label>
+		<div class="col-md-10">
+			<input id="linkHomepage" name="linkHomepage" placeholder="www.wilhelm-busch.de"
+				class="form-control input-md" type="text">
+		</div>
+	</div>
+	<div class="form-group">
+		<label class="col-md-2 control-label" for="linkGoogleProfile">Google Scholar Profil</label>
+		<div class="col-md-10">
+			<input id="linkHomepage" name="linkGoogleProfile" placeholder="https://scholar.google.com/citations?user=max_moritz"
+				class="form-control input-md" type="text">
+		</div>
+	</div>
+	</div>
+	<hr />
+	<div class="container">
+
+	<h2>Persönliche Identifikatoren</h2>
+	<div class="form-group">
+		<label class="col-md-2 control-label" for="GND">GND</label>
+		<div class="col-md-4">
+			<input id="gnd" name="gnd" placeholder="GND"
+				class="form-control input-md" type="text">
+		</div>
+	</div>
+	<div class="form-group">
+		<label class="col-md-2 control-label" for="ORCID">ORCID</label>
+		<div class="col-md-4">
+			<input id="orcid" name="orcid" placeholder="ORCID"
+				class="form-control input-md" type="text">
+		</div>
+	</div>
+	<div class="form-group">
+		<label class="col-md-2 control-label" for="scopusAuthorID">Scopus Author ID</label>
+		<div class="col-md-4">
+			<input id="scopusAuthorID" name="scopusAuthorID"
+				placeholder="Scopus ID" class="form-control input-md" type="text">
+		</div>
+	</div>
+	<div class="form-group">
+		<label class="col-md-2 control-label" for="researcherID">ResearcherID</label>
+		<div class="col-md-4">
+			<input id="researcherID" name="researcherID"
+				placeholder="ResearcherID" class="form-control input-md" type="text">
+		</div>
+	</div>
+	<div class="form-group">
+		<label class="col-md-2 control-label" for="lsfID">LSF ID</label>
+		<div class="col-md-4">
+			<input id="lsfID" name="lsfID" placeholder="LSF ID"
+				class="form-control input-md" type="text">
+		</div>
+	</div>
+	</div>
+	<hr />
+	<div class="container">
+	<h2>Beschreibung</h2>
+	<div class="form-group">
+	<label class="col-md-2 control-label" for="comment">Kommentar</label>
+	<div class="col-md-10">
+		<textarea rows="4" class="form-control" id="comment" placeholder="Kommentar"></textarea>
+	</div>
+	</div>
+	<div class="form-group">
+	<label class="col-md-2 control-label" for="keywords">Keywords</label>
+	<div class="col-md-10">
+		<textarea rows="1" class="form-control" id="keywords" placeholder="Keywords"></textarea>
+	</div>
+	</div>
+	</div>
+	<hr />
+	<div class="container">
+	<div class="rows">
+	<div class="col-md-10 col-md-offset-2">
+	<a id="send" class="btn btn-success">Speichern</a>
+	<a href="index.html" class="btn btn-default">Abbrechen</a>
+	</div>
+	</div>
+	</div>
+	</form>
+</body>
+</head>
