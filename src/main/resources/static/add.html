@@ -10,7 +10,7 @@
 <link rel="icon" href="img/favicon.ico">
 
 <title>Knowledgebase :: Autor hinzufügen</title>
-<link href="/webjars/bootstrap/css/bootstrap.css" rel="stylesheet">
+<link href="css/bootstrap.css" rel="stylesheet">
 <script src="/webjars/jquery/jquery.min.js"></script>
 <script src="/webjars/bootstrap/js/bootstrap.min.js"></script>
 <script src="js/add.js"></script>
@@ -33,11 +33,12 @@
 			</div>
 		</div>
 	</div>
-	<form>
-	<div class="container mainbox">
+	<form class="form-horizontal">
+	<div class="container">
+	<div class="col-md-12">
+	<h2>Name</h2>
 	<div class="form-group">
-		<label class="col-md-2 control-label" for="firstname">Name</label>
-		<div class="col-md-3">
+		<div class="col-md-3 offset-md-1">
 			<input id="firstname" name="firstname" placeholder="Max"
 				class="form-control input-md" type="text">
 		</div>
@@ -51,8 +52,11 @@
 		</div>
 	</div>
 	</div>
+	</div>
 	<hr />
+
 	<div class="container">
+	<div class="col-md-12">
 	<h2>Zugehörigkeit und Adresse</h2>
 	<div class="form-group">
 		<label class="col-md-2 control-label" for="insitution">Institution</label>
@@ -92,9 +96,11 @@
 		</div>
 	</div>
 	</div>
+	</div>
 	<hr />
+	
 	<div class="container">
-
+	<div class="col-md-12">
 	<h2>Persönliche Identifikatoren</h2>
 	<div class="form-group">
 		<label class="col-md-2 control-label" for="GND">GND</label>
@@ -132,8 +138,11 @@
 		</div>
 	</div>
 	</div>
+	</div>
+	
 	<hr />
 	<div class="container">
+	<div class="col-md-12">
 	<h2>Beschreibung</h2>
 	<div class="form-group">
 	<label class="col-md-2 control-label" for="comment">Kommentar</label>
@@ -148,10 +157,11 @@
 	</div>
 	</div>
 	</div>
+	</div>
 	<hr />
 	<div class="container">
 	<div class="rows">
-	<div class="col-md-10 col-md-offset-2">
+	<div class="col-md-offset-2">
 	<a id="send" class="btn btn-success">Speichern</a>
 	<a href="index.html" class="btn btn-default">Abbrechen</a>
 	</div>

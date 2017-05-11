@@ -11,9 +11,6 @@ html {
 }
 body {
   margin: 0;
-  background-image: url("https://www.uni-due.de/imperia/md/images/portal/2015/wolken_2015.jpg");
-  background-size: cover;
-  	background-attachment: fixed;	
 }
 article,
 aside,
@@ -29,7 +26,6 @@ nav,
 section,
 summary {
   display: block;
-    background-color: #004c93;
 }
 audio,
 canvas,
@@ -117,12 +113,9 @@ input,
 optgroup,
 select,
 textarea {
-  margin: 5px;
+  margin: 0;
   font: inherit;
   color: inherit;
-}
-#id {
-  color : #004c93;
 }
 button {
   overflow: visible;
@@ -185,9 +178,6 @@ textarea {
 }
 optgroup {
   font-weight: bold;
-}
-form {
-	color: #fffff;
 }
 table {
   border-spacing: 0;
@@ -1631,10 +1621,6 @@ pre code {
 }
 .col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12 {
   float: left;
-	background-color: #dfe4f2;
-	opacity: 0.9;
-	color: #1a171b;
-	border-radius: 25px;
 }
 .col-xs-12 {
   width: 100%;
@@ -1792,10 +1778,6 @@ pre code {
 @media (min-width: 768px) {
   .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
     float: left;
-	background-color: #dfe4f2;
-	opacity: 0.9;
-	color: #1a171b;
-	border-radius: 25px;
   }
   .col-sm-12 {
     width: 100%;
@@ -1954,11 +1936,6 @@ pre code {
 @media (min-width: 992px) {
   .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
     float: left;
-	background-color: #dfe4f2;
-	opacity: 0.9;
-	color: #1a171b;
-	border-radius: 25px;
-	margin: 5px 0px 5px 0px;
   }
   .col-md-12 {
     width: 100%;
@@ -2117,10 +2094,6 @@ pre code {
 @media (min-width: 1200px) {
   .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
     float: left;
-	background-color: #dfe4f2;
-	opacity: 0.9;
-	color: #1a171b;
-	border-radius: 25px;
   }
   .col-lg-12 {
     width: 100%;
@@ -2277,6 +2250,7 @@ pre code {
   }
 }
 table {
+  background-color: transparent;
 }
 caption {
   padding-top: 8px;
@@ -2291,7 +2265,6 @@ th {
   width: 100%;
   max-width: 100%;
   margin-bottom: 20px;
-  vertical-align: middle;
 }
 .table > thead > tr > th,
 .table > tbody > tr > th,
@@ -3605,7 +3578,7 @@ tbody.collapse.in {
 .dropdown-menu > .disabled > a,
 .dropdown-menu > .disabled > a:hover,
 .dropdown-menu > .disabled > a:focus {
-  color: #777;
+  color: #004c93;
 }
 .dropdown-menu > .disabled > a:hover,
 .dropdown-menu > .disabled > a:focus {
@@ -3634,7 +3607,7 @@ tbody.collapse.in {
   padding: 3px 20px;
   font-size: 12px;
   line-height: 1.42857143;
-  color: #777;
+  color: #004c93;
   white-space: nowrap;
 }
 .dropdown-backdrop {
@@ -4021,11 +3994,11 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   background-color: #eee;
 }
 .nav > li.disabled > a {
-  color: #777;
+  color: #004c93;
 }
 .nav > li.disabled > a:hover,
 .nav > li.disabled > a:focus {
-  color: #777;
+  color: #004c93;
   text-decoration: none;
   cursor: not-allowed;
   background-color: transparent;
@@ -4527,18 +4500,18 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   border-color: #e7e7e7;
 }
 .navbar-default .navbar-brand {
-  color: #dfe4f2;
+  color: #004c93;
 }
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
-  color: #5e5e5e;
+  color: #004c93;
   background-color: transparent;
 }
 .navbar-default .navbar-text {
-  color: #777;
+  color: #004c93;
 }
 .navbar-default .navbar-nav > li > a {
-  color: #777;
+  color: #004c93;
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
@@ -4579,7 +4552,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 @media (max-width: 767px) {
   .navbar-default .navbar-nav .open .dropdown-menu > li > a {
-    color: #777;
+    color: #004c93;
   }
   .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
   .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
@@ -4600,13 +4573,13 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   }
 }
 .navbar-default .navbar-link {
-  color: #777;
+  color: #004c93;
 }
 .navbar-default .navbar-link:hover {
   color: #333;
 }
 .navbar-default .btn-link {
-  color: #777;
+  color: #004c93;
 }
 .navbar-default .btn-link:hover,
 .navbar-default .btn-link:focus {
@@ -4619,11 +4592,11 @@ fieldset[disabled] .navbar-default .btn-link:focus {
   color: #ccc;
 }
 .navbar-inverse {
-  background-color: #1a171b;
+  background-color: #000;
   border-color: #080808;
 }
 .navbar-inverse .navbar-brand {
-  color: #9d9d9d;
+  color: #dfe4f2;
 }
 .navbar-inverse .navbar-brand:hover,
 .navbar-inverse .navbar-brand:focus {
@@ -4631,10 +4604,10 @@ fieldset[disabled] .navbar-default .btn-link:focus {
   background-color: transparent;
 }
 .navbar-inverse .navbar-text {
-  color: #9d9d9d;
+  color: #dfe4f2;
 }
 .navbar-inverse .navbar-nav > li > a {
-  color: #9d9d9d;
+  color: #dfe4f2;
 }
 .navbar-inverse .navbar-nav > li > a:hover,
 .navbar-inverse .navbar-nav > li > a:focus {
@@ -4736,7 +4709,7 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
   content: "/\00a0";
 }
 .breadcrumb > .active {
-  color: #777;
+  color: #004c93;
 }
 .pagination {
   display: inline-block;
@@ -4986,11 +4959,11 @@ a.badge:focus {
   margin-left: 3px;
 }
 .jumbotron {
-  min-height: 200px;
-  padding-top: 30px;
-  padding-bottom: 30px;
-  margin-bottom: 30px;
-  color: #ffffff;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+  color: inherit;
+  background-color: #dfe4f2;
 }
 .jumbotron h1,
 .jumbotron .h1 {
@@ -5015,13 +4988,13 @@ a.badge:focus {
 }
 @media screen and (min-width: 768px) {
   .jumbotron {
-    padding-top: 48px;
-    padding-bottom: 48px;
+    padding-top: 24px;
+    padding-bottom: 24px;
   }
   .container .jumbotron,
   .container-fluid .jumbotron {
-    padding-right: 60px;
-    padding-left: 60px;
+    padding-right: 30px;
+    padding-left: 30px;
   }
   .jumbotron h1,
   .jumbotron .h1 {
@@ -6747,6 +6720,58 @@ button.close {
   table.visible-print {
     display: table !important;
   }
+  
+  #login-dp{
+    min-width: 250px;
+    padding: 14px 14px 0;
+    overflow:hidden;
+    background-color:rgba(255,255,255,.8);
+}
+#login-dp .help-block{
+    font-size:12px    
+}
+#login-dp .bottom{
+    background-color:rgba(255,255,255,.8);
+    border-top:1px solid #ddd;
+    clear:both;
+    padding:14px;
+}
+#login-dp .social-buttons{
+    margin:12px 0    
+}
+#login-dp .social-buttons a{
+    width: 49%;
+}
+#login-dp .form-group {
+    margin-bottom: 10px;
+}
+.btn-fb{
+    color: #fff;
+    background-color:#3b5998;
+}
+.btn-fb:hover{
+    color: #fff;
+    background-color:#496ebc 
+}
+.btn-tw{
+    color: #fff;
+    background-color:#55acee;
+}
+.btn-tw:hover{
+    color: #fff;
+    background-color:#59b5fa;
+}
+@media(max-width:768px){
+    #login-dp{
+        background-color: inherit;
+        color: #fff;
+    }
+    #login-dp .bottom{
+        background-color: inherit;
+        border-top:0 none;
+    }
+}
+  
   tr.visible-print {
     display: table-row !important;
   }
@@ -6785,3 +6810,54 @@ button.close {
   }
 }
 /*# sourceMappingURL=bootstrap.css.map */
+
+#login-dp{
+    min-width: 250px;
+    padding: 14px 14px 0;
+    overflow:hidden;
+    background-color:rgba(255,255,255,.8);
+}
+#login-dp .help-block{
+    font-size:12px    
+}
+#login-dp .bottom{
+    background-color:rgba(255,255,255,.8);
+    border-top:1px solid #ddd;
+    clear:both;
+    padding:14px;
+}
+#login-dp .social-buttons{
+    margin:12px 0    
+}
+#login-dp .social-buttons a{
+    width: 49%;
+}
+#login-dp .form-group {
+    margin-bottom: 10px;
+}
+.btn-fb{
+    color: #fff;
+    background-color:#3b5998;
+}
+.btn-fb:hover{
+    color: #fff;
+    background-color:#496ebc 
+}
+.btn-tw{
+    color: #fff;
+    background-color:#55acee;
+}
+.btn-tw:hover{
+    color: #fff;
+    background-color:#59b5fa;
+}
+@media(max-width:768px){
+    #login-dp{
+        background-color: inherit;
+        color: #fff;
+    }
+    #login-dp .bottom{
+        background-color: inherit;
+        border-top:0 none;
+    }
+}
